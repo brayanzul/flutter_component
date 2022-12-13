@@ -1,4 +1,36 @@
+import 'package:flutter/material.dart';
 
-import 'dart:html';
+class Listview1Screen extends StatelessWidget {
 
+  final options = const['Megaman','Metal Gear','Super Smash','Final Fantasy'];
+   
+  const Listview1Screen({Key? key}) : super(key: key);
+  
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text('Listview Tipo 1'),
+      ),
+      body: ListView(
+        children: [
+          
+          ...options.map(
+            (game) => ListTile(
+             leading: const Icon(Icons.access_alarm_outlined),
+             title: Text( game ),
+             trailing: const Icon( Icons.arrow_forward_ios_outlined ),
+            ),
+          ).toList()
+          
+          /* ListTile(
+            leading: Icon(Icons.access_alarm_outlined),
+            title: Text('Hola Mundo'),
+          ), */
 
+        ],
+      )
+    );
+  }
+}
