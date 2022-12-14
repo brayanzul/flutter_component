@@ -1,5 +1,11 @@
 # flutter_componentes
 
+![Flu-comp1](https://user-images.githubusercontent.com/62777613/207734283-d7474673-558e-41e0-95ea-ad9d21599845.png)
+
+![Flu-comp2](https://user-images.githubusercontent.com/62777613/207734295-a05128a6-b515-4e60-adfd-f4fac142c343.png)
+
+![Flu-comp3](https://user-images.githubusercontent.com/62777613/207734309-0e1fca76-fe13-4868-ab11-c8f1eb6d3730.png)
+
 A new Flutter project.
 
 ## Getting Started
